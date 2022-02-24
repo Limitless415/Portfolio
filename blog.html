@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <link rel="icon" href="assets/catblush.png">
+    <title> Max Hu </title>
+    <!-- Meta tags  -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS references -->
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/bootstrap-icons.css">
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body class="bg-success">
+    <!--Navbar-->
+    <nav class="navbar navbar-dark bg-dark container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <i class="bi bi-house"></i> Max Hu
+        </a>
+        <ul>
+            <li><a href="about.html" class="text-light"> About </a></li>
+            <li><a href="blog.html" class="text-warning"> Blog</a></li>
+            <li><a href="projects.html" class="text-danger"> Code </a></li>
+            <li><a href="contact.html" class="text-primary"> Contact </a></li>
+        </ul>
+    </nav>
+
+    <!-- Blog page -->
+    <div class="container-mt4 text-warning text-center">
+        <h1>
+            <i class="bi bi-chat-dots"></i> Blog
+        </h1>
+        <hr>
+    </div>
+
+    <!-- Carousel -->
+    <div id="blog-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+        <!-- Carousel Menu -->
+        <ol class="carousel-indicators">
+            <li data-bs-target="#blog-carousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#blog-carousel" data-bs-slide-to="1"></li>
+        </ol>
+
+        <!-- Carousel Body -->
+        <div class="carousel-inner text-center">
+            <!-- Slide 1 -->
+            <div id="slide-1" class="carousel-item active">
+                <img class="img-fluid" src="assets/CaliforniaFlag.png" width="1150">
+                <div class="carousel-caption">
+                    <h4 class="text-dark"> Origin </h4>
+                    <button onclick="document.location='articles/article-01.html'" class="btn btn-outline-light"> Click to see more </button>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div id="slide-2" class="carousel-item">
+                <img class="img-fluid" src="assets/motherboard.png" width="800">
+                <div class="carousel-caption">
+                    <h5 class="text-light"> Computers </h5>
+                    <p class="text-light"> Click below to read more </p>
+                    <button onclick="document.location='articles/article-02.html'" class="btn btn-light"> Read More </button>
+                </div>
+            </div>
+            <!-- Carousel Controls -->
+            <a class="carousel-control-prev" href="#blog-carousel" role="button" data-bs-slide="prev">
+                <i class="carousel-control-prev-icon"></i>
+            </a>
+            <a class="carousel-control-next" href="#blog-carousel" role="button" data-bs-slide="next">
+                <i class="carousel-control-next-icon"></i>
+            </a>
+        
+            <!-- Bootstrap Bundle with Popper -->
+            <script src="scripts/bootstrap.bundle.min.js"></script>
+        </div>
+
+        
+        
+</body>
+</html>
