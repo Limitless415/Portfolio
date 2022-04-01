@@ -26,15 +26,23 @@
         </nav>
 
         <div class='container'>
-            <h1 class='display-1 mt-4 text-center'> The motherboard </h1>
+            <h1 class='display-1 mt-4 text-center'> Snake Game </h1>
             <hr>
-            <p> The motherboard is the backbone of what all computer components connect to. It is the spine of
-                the computer,
-                and without it, all of the other components would be useless, just like humans without one as well, we would
-                not have a structure to hold us up. The motherboard houses the CPU, RAM, GPU, and everything has to connect to
-                it. I have a strong interest in computer hardware and I would like to specialize in that rather than software after
-                graduating.
+            <p class="mt-4"> This snake game was used drawing a canvas and required local storage
+                to keep track of the score. The inspiration behind doing this was because of the old nokia phone that had the
+                original snake game on it.
+                The game itself is not too complex, have the snake eat the food to grow bigger and fill up the canvas to win.
             </p>
+            <img src="../assets/losecondition.png">
+            <p> The lose conditions were set to if the snake ate itself or hit the walls of the board. </p>
+            <br>
+            <img src="../assets/movekeys.png">
+            <p> The controls for the snake itself are using the arrow keys on the user's keyboard. The buttons on the keyboard are assigned in javascript with key codes. 
+            The buttons themselves wouldn't have much of a use if it didn't move anything, so had to make a condition where if the button was pressed, it would go in the direction of the x or y axis according
+            to left or right, up and down. </p>
+            <img src="../assets/movesnake.png">
+            <br>
+            <a href="https://limitless415.github.io/snakegame/"><button class="btn btn-outline-light"> Play </button> </a>
         </div>
 
         <!--  Bootstrap Bundle with Popper -->
